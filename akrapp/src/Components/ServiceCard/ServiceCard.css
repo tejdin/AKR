@@ -1,0 +1,33 @@
+.services-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card h3 {
+    margin-top: 10px;
+}
+
+.service-card p {
+    margin-top: 10px;
+}

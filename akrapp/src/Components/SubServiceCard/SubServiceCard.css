@@ -1,0 +1,46 @@
+.subservice-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+
+}
+
+.subservice-card img {
+    max-width: 100%;
+}
+
+.subservice-card h3 {
+    margin-top: 16px;
+}
+.add-to-cart-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: darkblue;
+}
+
+.subservice-card p {
+    margin-top: 8px;
+}
+.subservices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subservice-card {
+    margin: 15px;
+    /* Vos autres styles ici */
+}

@@ -1,0 +1,59 @@
+.carousel-container {
+    flex-grow: 1;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: 0.3s;
+}
+
+.carousel-slide img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    margin-right: 35px;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    animation: scrolling 10s infinite linear;
+
+}
+
+.carousel-slide img {
+    flex: 0 0 auto;
+    left: 10px;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.partners-section {
+    text-align: center;
+
+}
+
+.carousel-inner img {
+    flex: 0 0 auto;
+    height: auto;
+    margin-right: 50px;
+    /* Ajoutez une marge à droite pour créer un espace entre les logos */
+}
+.partners-section {
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,91 @@
+.bank-info-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 16px;
+    padding: 20px;
+}
+.totals {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.checkout-button {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #45a049;
+}
+
+.bank-info-header {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bank-info-field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-info-field label {
+    margin-bottom: 10px;
+}
+
+.bank-info-field input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bank-info-button {
+    background: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.bank-info-button:hover {
+    background: #0056b3;
+}.card-types {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+
+.card-types img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-types img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-types img.selected {
+    border: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+.selectedCartName {
+    align-items: center;
+    text-align: center;
+}

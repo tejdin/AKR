@@ -1,0 +1,61 @@
+.service-card-panier {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 21px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    width: 500px;
+
+}
+/* ... autres styles inchangés ... */
+
+.service-remove-button {
+    background: #ff4d4f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-remove-button:hover {
+    background: #cc0000;
+}
+
+.service-card-panier:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.service-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.service-info {
+    flex-grow: 1;
+}
+
+.service-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.service-price {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #007bff;
+}

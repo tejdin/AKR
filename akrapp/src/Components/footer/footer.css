@@ -1,0 +1,40 @@
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 1em 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.footer-brand h4 {
+    margin-bottom: 30px;
+    /* Ajoute une marge en bas */
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    /* Vous pouvez choisir une autre police */
+    margin-right: 1em;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 0 0.5em;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+.cart-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.cart-items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bank-info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .cart-page-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cart-items-container, .bank-info-container {
+        width: 48%;
+    }
+}
